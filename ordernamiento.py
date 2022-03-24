@@ -9,6 +9,9 @@ Original file is located at
 
 #Ordenamiento en burbuja
 
+from ast import For
+
+
 lista = [50,30,32,15,60,58,22,21,3,1,0,14,18,5,7,9,24,80,79,67,54,13]
 print(len(lista))
 
@@ -98,3 +101,6 @@ def QuickSort(lista):
     return lista
 print(lista)
 print(QuickSort(lista))
+
+
+print('Hola')
